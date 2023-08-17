@@ -1,0 +1,83 @@
+.mr12 {
+    margin-right: 12px;
+}
+
+.mr_left12 {
+    margin-left: 12px;
+}
+
+.w_100 {
+    width: 100%;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.algin_item_center {
+    align-items: center;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+.card {
+    background-color: skyblue;
+    height: 79px;
+    width: 79%;
+    border-radius: 20px;
+
+}
+
+.card:hover {
+    border: 2px solid cadetblue;
+
+}
+
+.next:hover {
+    background-color: blue;
+
+}
+
+
+.h1 {
+    color: red;
+}
+
+
+
+
+.h2 {
+    color: aquamarine;
+}
+
+.p {
+    background-color: darkorange;
+}
+
+.h3 {
+    color: red;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: red;
+}
+
+.slick-list {
+    overflow: visible !important;
+    /* padding: 0 20% 0 0; */
+    position: relative;
+    z-index: -1;
+}
+
+.slick-list::after {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 4000px;
+    right: 100%;
+    background-color: white;
+}
